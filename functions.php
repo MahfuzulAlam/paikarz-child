@@ -51,7 +51,7 @@ class Paikarz_Child
         }
 
         if (!defined('PKZ_VERSION')) {
-            define('PKZ_VERSION', '1.0.0');
+            define('PKZ_VERSION', '1.0.1');
         }
 
         if (!defined('PKZ_MAP_VERSION')) {
