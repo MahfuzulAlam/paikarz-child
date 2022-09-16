@@ -10,3 +10,35 @@
 .header-sticky .logo-sticky img {
   width: 150px;
 }
+
+.main-container .our-service .box .box-inner {
+  padding-left: 65px;
+}
+
+@media screen and (max-width: 991px) {
+  .categories-menu.show {
+    display: none !important;
+  }
+
+  .header .wpb_single_image.wpb_content_element {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-container.header-4 .widget_product_search #searchform #ws {
+    border: none !important;
+  }
+  .header-container .message,
+  .header-container .top-menu .widgettitle {
+    line-height: normal;
+  }
+  .header-container .top-menu {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .main-container .our-service .box .box-inner i img {
+    width: 40px;
+  }
+}
